@@ -2,6 +2,7 @@ package printer
 
 import "fmt"
 
-func hello() {
-	fmt.Println("unexported hello")
+// Hello is an exported function
+func Hello() {
+	fmt.Println("exported hello")
 }
