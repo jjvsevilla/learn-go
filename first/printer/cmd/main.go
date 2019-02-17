@@ -7,5 +7,4 @@ func main() {
 
 	var version = printer.Version()
 	printer.Print("Current Go version " + version)
-
 }
